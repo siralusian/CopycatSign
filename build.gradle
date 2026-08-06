@@ -1,0 +1,123 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = mod_version
+group = mod_group_id
+
+repositories {
+    mavenCentral()
+}
+
+base {
+    archivesName = mod_id
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+    withSourcesJar()
+}
+
+neoForge {
+    version = neo_version
+
+    parchment {
+        mappingsVersion = "2024.11.17"
+        minecraftVersion = "1.21.1"
+    }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
+            // No -Xmx was set anywhere before this, so the JVM fell back to its own default heap
+            // cap - too small once image decoding/DynamicTexture work (Feature 3) added real memory
+            // pressure on top of normal Minecraft usage, causing an in-game "out of memory" bailout.
+            jvmArgument '-Xmx4G'
+        }
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
+            jvmArgument '-Xmx4G'
+        }
+        gameTestServer {
+            type = "gameTestServer"
+            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
+            jvmArgument '-Xmx4G'
+        }
+        data {
+            data()
+            programArguments.addAll '--mod', mod_id, '--all',
+                '--output', file('src/generated/resources/').getAbsolutePath(),
+                '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+dependencies {
+    // Create als lokale JAR - Ziel dieses Mods ist es, ein Block (nicht Entity-basiertes) Schild zu
+    // bauen, das beim Zusammenbauen einer Create-Kontraption (z.B. Zug) korrekt mitgenommen wird.
+    // ponder + create_factory_abstractions sind Creates eigene Laufzeit-Abhaengigkeiten (ohne die
+    // laedt Create im Dev-Client nicht) - siehe CobbleCompanion-Everything/build.gradle fuer dasselbe
+    // bewaehrte Set.
+    implementation fileTree(dir: 'libs', include: [
+        'create-*.jar', 'ponder*.jar', 'create_factory_abstractions*.jar'
+    ])
+}
+
+processResources {
+    var replaceProperties = [
+        minecraft_version      : minecraft_version,
+        minecraft_version_range: minecraft_version_range,
+        neo_version            : neo_version,
+        neo_version_range      : neo_version_range,
+        loader_version_range   : loader_version_range,
+        mod_id                 : mod_id,
+        mod_name               : mod_name,
+        mod_license            : mod_license,
+        mod_version            : mod_version,
+        mod_authors            : mod_authors,
+        mod_description        : mod_description
+    ]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties
+    }
+}
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/repo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

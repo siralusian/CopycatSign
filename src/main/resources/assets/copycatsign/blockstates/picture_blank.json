@@ -1,0 +1,1064 @@
+{
+    "variants":  {
+                     "facing=down,position=back,thickness=very_thin,up_hint=north":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                                         "x":  90
+                                                                                     },
+                     "facing=down,position=back_middle,thickness=very_thin,up_hint=north":  {
+                                                                                                "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                                "x":  90
+                                                                                            },
+                     "facing=down,position=middle,thickness=very_thin,up_hint=north":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                                           "x":  90
+                                                                                       },
+                     "facing=down,position=front_middle,thickness=very_thin,up_hint=north":  {
+                                                                                                 "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                                 "x":  90
+                                                                                             },
+                     "facing=down,position=front,thickness=very_thin,up_hint=north":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                                          "x":  90
+                                                                                      },
+                     "facing=down,position=back,thickness=very_thin,up_hint=east":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                                        "x":  90,
+                                                                                        "y":  90
+                                                                                    },
+                     "facing=down,position=back_middle,thickness=very_thin,up_hint=east":  {
+                                                                                               "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                               "x":  90,
+                                                                                               "y":  90
+                                                                                           },
+                     "facing=down,position=middle,thickness=very_thin,up_hint=east":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                                          "x":  90,
+                                                                                          "y":  90
+                                                                                      },
+                     "facing=down,position=front_middle,thickness=very_thin,up_hint=east":  {
+                                                                                                "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                                "x":  90,
+                                                                                                "y":  90
+                                                                                            },
+                     "facing=down,position=front,thickness=very_thin,up_hint=east":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                                         "x":  90,
+                                                                                         "y":  90
+                                                                                     },
+                     "facing=down,position=back,thickness=very_thin,up_hint=south":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                                         "x":  90,
+                                                                                         "y":  180
+                                                                                     },
+                     "facing=down,position=back_middle,thickness=very_thin,up_hint=south":  {
+                                                                                                "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                                "x":  90,
+                                                                                                "y":  180
+                                                                                            },
+                     "facing=down,position=middle,thickness=very_thin,up_hint=south":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                                           "x":  90,
+                                                                                           "y":  180
+                                                                                       },
+                     "facing=down,position=front_middle,thickness=very_thin,up_hint=south":  {
+                                                                                                 "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                                 "x":  90,
+                                                                                                 "y":  180
+                                                                                             },
+                     "facing=down,position=front,thickness=very_thin,up_hint=south":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                                          "x":  90,
+                                                                                          "y":  180
+                                                                                      },
+                     "facing=down,position=back,thickness=very_thin,up_hint=west":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                                        "x":  90,
+                                                                                        "y":  270
+                                                                                    },
+                     "facing=down,position=back_middle,thickness=very_thin,up_hint=west":  {
+                                                                                               "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                               "x":  90,
+                                                                                               "y":  270
+                                                                                           },
+                     "facing=down,position=middle,thickness=very_thin,up_hint=west":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                                          "x":  90,
+                                                                                          "y":  270
+                                                                                      },
+                     "facing=down,position=front_middle,thickness=very_thin,up_hint=west":  {
+                                                                                                "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                                "x":  90,
+                                                                                                "y":  270
+                                                                                            },
+                     "facing=down,position=front,thickness=very_thin,up_hint=west":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                                         "x":  90,
+                                                                                         "y":  270
+                                                                                     },
+                     "facing=up,position=back,thickness=very_thin,up_hint=north":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                                       "x":  270
+                                                                                   },
+                     "facing=up,position=back_middle,thickness=very_thin,up_hint=north":  {
+                                                                                              "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                              "x":  270
+                                                                                          },
+                     "facing=up,position=middle,thickness=very_thin,up_hint=north":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                                         "x":  270
+                                                                                     },
+                     "facing=up,position=front_middle,thickness=very_thin,up_hint=north":  {
+                                                                                               "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                               "x":  270
+                                                                                           },
+                     "facing=up,position=front,thickness=very_thin,up_hint=north":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                                        "x":  270
+                                                                                    },
+                     "facing=up,position=back,thickness=very_thin,up_hint=east":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                                      "x":  270,
+                                                                                      "y":  90
+                                                                                  },
+                     "facing=up,position=back_middle,thickness=very_thin,up_hint=east":  {
+                                                                                             "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                             "x":  270,
+                                                                                             "y":  90
+                                                                                         },
+                     "facing=up,position=middle,thickness=very_thin,up_hint=east":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                                        "x":  270,
+                                                                                        "y":  90
+                                                                                    },
+                     "facing=up,position=front_middle,thickness=very_thin,up_hint=east":  {
+                                                                                              "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                              "x":  270,
+                                                                                              "y":  90
+                                                                                          },
+                     "facing=up,position=front,thickness=very_thin,up_hint=east":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                                       "x":  270,
+                                                                                       "y":  90
+                                                                                   },
+                     "facing=up,position=back,thickness=very_thin,up_hint=south":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                                       "x":  270,
+                                                                                       "y":  180
+                                                                                   },
+                     "facing=up,position=back_middle,thickness=very_thin,up_hint=south":  {
+                                                                                              "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                              "x":  270,
+                                                                                              "y":  180
+                                                                                          },
+                     "facing=up,position=middle,thickness=very_thin,up_hint=south":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                                         "x":  270,
+                                                                                         "y":  180
+                                                                                     },
+                     "facing=up,position=front_middle,thickness=very_thin,up_hint=south":  {
+                                                                                               "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                               "x":  270,
+                                                                                               "y":  180
+                                                                                           },
+                     "facing=up,position=front,thickness=very_thin,up_hint=south":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                                        "x":  270,
+                                                                                        "y":  180
+                                                                                    },
+                     "facing=up,position=back,thickness=very_thin,up_hint=west":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                                      "x":  270,
+                                                                                      "y":  270
+                                                                                  },
+                     "facing=up,position=back_middle,thickness=very_thin,up_hint=west":  {
+                                                                                             "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                             "x":  270,
+                                                                                             "y":  270
+                                                                                         },
+                     "facing=up,position=middle,thickness=very_thin,up_hint=west":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                                        "x":  270,
+                                                                                        "y":  270
+                                                                                    },
+                     "facing=up,position=front_middle,thickness=very_thin,up_hint=west":  {
+                                                                                              "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                              "x":  270,
+                                                                                              "y":  270
+                                                                                          },
+                     "facing=up,position=front,thickness=very_thin,up_hint=west":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                                       "x":  270,
+                                                                                       "y":  270
+                                                                                   },
+                     "facing=north,position=back,thickness=very_thin":  {
+                                                                            "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back"
+                                                                        },
+                     "facing=north,position=back_middle,thickness=very_thin":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle"
+                                                                               },
+                     "facing=north,position=middle,thickness=very_thin":  {
+                                                                              "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle"
+                                                                          },
+                     "facing=north,position=front_middle,thickness=very_thin":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle"
+                                                                                },
+                     "facing=north,position=front,thickness=very_thin":  {
+                                                                             "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front"
+                                                                         },
+                     "facing=south,position=back,thickness=very_thin":  {
+                                                                            "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                            "y":  180
+                                                                        },
+                     "facing=south,position=back_middle,thickness=very_thin":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                   "y":  180
+                                                                               },
+                     "facing=south,position=middle,thickness=very_thin":  {
+                                                                              "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                              "y":  180
+                                                                          },
+                     "facing=south,position=front_middle,thickness=very_thin":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                    "y":  180
+                                                                                },
+                     "facing=south,position=front,thickness=very_thin":  {
+                                                                             "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                             "y":  180
+                                                                         },
+                     "facing=west,position=back,thickness=very_thin":  {
+                                                                           "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                           "y":  270
+                                                                       },
+                     "facing=west,position=back_middle,thickness=very_thin":  {
+                                                                                  "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                  "y":  270
+                                                                              },
+                     "facing=west,position=middle,thickness=very_thin":  {
+                                                                             "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                             "y":  270
+                                                                         },
+                     "facing=west,position=front_middle,thickness=very_thin":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                   "y":  270
+                                                                               },
+                     "facing=west,position=front,thickness=very_thin":  {
+                                                                            "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                            "y":  270
+                                                                        },
+                     "facing=east,position=back,thickness=very_thin":  {
+                                                                           "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back",
+                                                                           "y":  90
+                                                                       },
+                     "facing=east,position=back_middle,thickness=very_thin":  {
+                                                                                  "model":  "copycatsign:block/pictures/copycat_sign_very_thin/back_middle",
+                                                                                  "y":  90
+                                                                              },
+                     "facing=east,position=middle,thickness=very_thin":  {
+                                                                             "model":  "copycatsign:block/pictures/copycat_sign_very_thin/middle",
+                                                                             "y":  90
+                                                                         },
+                     "facing=east,position=front_middle,thickness=very_thin":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front_middle",
+                                                                                   "y":  90
+                                                                               },
+                     "facing=east,position=front,thickness=very_thin":  {
+                                                                            "model":  "copycatsign:block/pictures/copycat_sign_very_thin/front",
+                                                                            "y":  90
+                                                                        },
+                     "facing=down,position=back,thickness=thin,up_hint=north":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                                    "x":  90
+                                                                                },
+                     "facing=down,position=back_middle,thickness=thin,up_hint=north":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                                           "x":  90
+                                                                                       },
+                     "facing=down,position=middle,thickness=thin,up_hint=north":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                                      "x":  90
+                                                                                  },
+                     "facing=down,position=front_middle,thickness=thin,up_hint=north":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                                            "x":  90
+                                                                                        },
+                     "facing=down,position=front,thickness=thin,up_hint=north":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                                     "x":  90
+                                                                                 },
+                     "facing=down,position=back,thickness=thin,up_hint=east":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                                   "x":  90,
+                                                                                   "y":  90
+                                                                               },
+                     "facing=down,position=back_middle,thickness=thin,up_hint=east":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                                          "x":  90,
+                                                                                          "y":  90
+                                                                                      },
+                     "facing=down,position=middle,thickness=thin,up_hint=east":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                                     "x":  90,
+                                                                                     "y":  90
+                                                                                 },
+                     "facing=down,position=front_middle,thickness=thin,up_hint=east":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                                           "x":  90,
+                                                                                           "y":  90
+                                                                                       },
+                     "facing=down,position=front,thickness=thin,up_hint=east":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                                    "x":  90,
+                                                                                    "y":  90
+                                                                                },
+                     "facing=down,position=back,thickness=thin,up_hint=south":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                                    "x":  90,
+                                                                                    "y":  180
+                                                                                },
+                     "facing=down,position=back_middle,thickness=thin,up_hint=south":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                                           "x":  90,
+                                                                                           "y":  180
+                                                                                       },
+                     "facing=down,position=middle,thickness=thin,up_hint=south":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                                      "x":  90,
+                                                                                      "y":  180
+                                                                                  },
+                     "facing=down,position=front_middle,thickness=thin,up_hint=south":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                                            "x":  90,
+                                                                                            "y":  180
+                                                                                        },
+                     "facing=down,position=front,thickness=thin,up_hint=south":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                                     "x":  90,
+                                                                                     "y":  180
+                                                                                 },
+                     "facing=down,position=back,thickness=thin,up_hint=west":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                                   "x":  90,
+                                                                                   "y":  270
+                                                                               },
+                     "facing=down,position=back_middle,thickness=thin,up_hint=west":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                                          "x":  90,
+                                                                                          "y":  270
+                                                                                      },
+                     "facing=down,position=middle,thickness=thin,up_hint=west":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                                     "x":  90,
+                                                                                     "y":  270
+                                                                                 },
+                     "facing=down,position=front_middle,thickness=thin,up_hint=west":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                                           "x":  90,
+                                                                                           "y":  270
+                                                                                       },
+                     "facing=down,position=front,thickness=thin,up_hint=west":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                                    "x":  90,
+                                                                                    "y":  270
+                                                                                },
+                     "facing=up,position=back,thickness=thin,up_hint=north":  {
+                                                                                  "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                                  "x":  270
+                                                                              },
+                     "facing=up,position=back_middle,thickness=thin,up_hint=north":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                                         "x":  270
+                                                                                     },
+                     "facing=up,position=middle,thickness=thin,up_hint=north":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                                    "x":  270
+                                                                                },
+                     "facing=up,position=front_middle,thickness=thin,up_hint=north":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                                          "x":  270
+                                                                                      },
+                     "facing=up,position=front,thickness=thin,up_hint=north":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                                   "x":  270
+                                                                               },
+                     "facing=up,position=back,thickness=thin,up_hint=east":  {
+                                                                                 "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                                 "x":  270,
+                                                                                 "y":  90
+                                                                             },
+                     "facing=up,position=back_middle,thickness=thin,up_hint=east":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                                        "x":  270,
+                                                                                        "y":  90
+                                                                                    },
+                     "facing=up,position=middle,thickness=thin,up_hint=east":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                                   "x":  270,
+                                                                                   "y":  90
+                                                                               },
+                     "facing=up,position=front_middle,thickness=thin,up_hint=east":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                                         "x":  270,
+                                                                                         "y":  90
+                                                                                     },
+                     "facing=up,position=front,thickness=thin,up_hint=east":  {
+                                                                                  "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                                  "x":  270,
+                                                                                  "y":  90
+                                                                              },
+                     "facing=up,position=back,thickness=thin,up_hint=south":  {
+                                                                                  "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                                  "x":  270,
+                                                                                  "y":  180
+                                                                              },
+                     "facing=up,position=back_middle,thickness=thin,up_hint=south":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                                         "x":  270,
+                                                                                         "y":  180
+                                                                                     },
+                     "facing=up,position=middle,thickness=thin,up_hint=south":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                                    "x":  270,
+                                                                                    "y":  180
+                                                                                },
+                     "facing=up,position=front_middle,thickness=thin,up_hint=south":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                                          "x":  270,
+                                                                                          "y":  180
+                                                                                      },
+                     "facing=up,position=front,thickness=thin,up_hint=south":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                                   "x":  270,
+                                                                                   "y":  180
+                                                                               },
+                     "facing=up,position=back,thickness=thin,up_hint=west":  {
+                                                                                 "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                                 "x":  270,
+                                                                                 "y":  270
+                                                                             },
+                     "facing=up,position=back_middle,thickness=thin,up_hint=west":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                                        "x":  270,
+                                                                                        "y":  270
+                                                                                    },
+                     "facing=up,position=middle,thickness=thin,up_hint=west":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                                   "x":  270,
+                                                                                   "y":  270
+                                                                               },
+                     "facing=up,position=front_middle,thickness=thin,up_hint=west":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                                         "x":  270,
+                                                                                         "y":  270
+                                                                                     },
+                     "facing=up,position=front,thickness=thin,up_hint=west":  {
+                                                                                  "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                                  "x":  270,
+                                                                                  "y":  270
+                                                                              },
+                     "facing=north,position=back,thickness=thin":  {
+                                                                       "model":  "copycatsign:block/pictures/copycat_sign/back"
+                                                                   },
+                     "facing=north,position=back_middle,thickness=thin":  {
+                                                                              "model":  "copycatsign:block/pictures/copycat_sign/back_middle"
+                                                                          },
+                     "facing=north,position=middle,thickness=thin":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign/middle"
+                                                                     },
+                     "facing=north,position=front_middle,thickness=thin":  {
+                                                                               "model":  "copycatsign:block/pictures/copycat_sign/front_middle"
+                                                                           },
+                     "facing=north,position=front,thickness=thin":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign/front"
+                                                                    },
+                     "facing=south,position=back,thickness=thin":  {
+                                                                       "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                       "y":  180
+                                                                   },
+                     "facing=south,position=back_middle,thickness=thin":  {
+                                                                              "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                              "y":  180
+                                                                          },
+                     "facing=south,position=middle,thickness=thin":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                         "y":  180
+                                                                     },
+                     "facing=south,position=front_middle,thickness=thin":  {
+                                                                               "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                               "y":  180
+                                                                           },
+                     "facing=south,position=front,thickness=thin":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                        "y":  180
+                                                                    },
+                     "facing=west,position=back,thickness=thin":  {
+                                                                      "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                      "y":  270
+                                                                  },
+                     "facing=west,position=back_middle,thickness=thin":  {
+                                                                             "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                             "y":  270
+                                                                         },
+                     "facing=west,position=middle,thickness=thin":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                        "y":  270
+                                                                    },
+                     "facing=west,position=front_middle,thickness=thin":  {
+                                                                              "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                              "y":  270
+                                                                          },
+                     "facing=west,position=front,thickness=thin":  {
+                                                                       "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                       "y":  270
+                                                                   },
+                     "facing=east,position=back,thickness=thin":  {
+                                                                      "model":  "copycatsign:block/pictures/copycat_sign/back",
+                                                                      "y":  90
+                                                                  },
+                     "facing=east,position=back_middle,thickness=thin":  {
+                                                                             "model":  "copycatsign:block/pictures/copycat_sign/back_middle",
+                                                                             "y":  90
+                                                                         },
+                     "facing=east,position=middle,thickness=thin":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign/middle",
+                                                                        "y":  90
+                                                                    },
+                     "facing=east,position=front_middle,thickness=thin":  {
+                                                                              "model":  "copycatsign:block/pictures/copycat_sign/front_middle",
+                                                                              "y":  90
+                                                                          },
+                     "facing=east,position=front,thickness=thin":  {
+                                                                       "model":  "copycatsign:block/pictures/copycat_sign/front",
+                                                                       "y":  90
+                                                                   },
+                     "facing=down,position=back,thickness=medium,up_hint=north":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                                      "x":  90
+                                                                                  },
+                     "facing=down,position=back_middle,thickness=medium,up_hint=north":  {
+                                                                                             "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                             "x":  90
+                                                                                         },
+                     "facing=down,position=middle,thickness=medium,up_hint=north":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                                        "x":  90
+                                                                                    },
+                     "facing=down,position=front_middle,thickness=medium,up_hint=north":  {
+                                                                                              "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                              "x":  90
+                                                                                          },
+                     "facing=down,position=front,thickness=medium,up_hint=north":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                                       "x":  90
+                                                                                   },
+                     "facing=down,position=back,thickness=medium,up_hint=east":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                                     "x":  90,
+                                                                                     "y":  90
+                                                                                 },
+                     "facing=down,position=back_middle,thickness=medium,up_hint=east":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                            "x":  90,
+                                                                                            "y":  90
+                                                                                        },
+                     "facing=down,position=middle,thickness=medium,up_hint=east":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                                       "x":  90,
+                                                                                       "y":  90
+                                                                                   },
+                     "facing=down,position=front_middle,thickness=medium,up_hint=east":  {
+                                                                                             "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                             "x":  90,
+                                                                                             "y":  90
+                                                                                         },
+                     "facing=down,position=front,thickness=medium,up_hint=east":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                                      "x":  90,
+                                                                                      "y":  90
+                                                                                  },
+                     "facing=down,position=back,thickness=medium,up_hint=south":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                                      "x":  90,
+                                                                                      "y":  180
+                                                                                  },
+                     "facing=down,position=back_middle,thickness=medium,up_hint=south":  {
+                                                                                             "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                             "x":  90,
+                                                                                             "y":  180
+                                                                                         },
+                     "facing=down,position=middle,thickness=medium,up_hint=south":  {
+                                                                                        "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                                        "x":  90,
+                                                                                        "y":  180
+                                                                                    },
+                     "facing=down,position=front_middle,thickness=medium,up_hint=south":  {
+                                                                                              "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                              "x":  90,
+                                                                                              "y":  180
+                                                                                          },
+                     "facing=down,position=front,thickness=medium,up_hint=south":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                                       "x":  90,
+                                                                                       "y":  180
+                                                                                   },
+                     "facing=down,position=back,thickness=medium,up_hint=west":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                                     "x":  90,
+                                                                                     "y":  270
+                                                                                 },
+                     "facing=down,position=back_middle,thickness=medium,up_hint=west":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                            "x":  90,
+                                                                                            "y":  270
+                                                                                        },
+                     "facing=down,position=middle,thickness=medium,up_hint=west":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                                       "x":  90,
+                                                                                       "y":  270
+                                                                                   },
+                     "facing=down,position=front_middle,thickness=medium,up_hint=west":  {
+                                                                                             "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                             "x":  90,
+                                                                                             "y":  270
+                                                                                         },
+                     "facing=down,position=front,thickness=medium,up_hint=west":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                                      "x":  90,
+                                                                                      "y":  270
+                                                                                  },
+                     "facing=up,position=back,thickness=medium,up_hint=north":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                                    "x":  270
+                                                                                },
+                     "facing=up,position=back_middle,thickness=medium,up_hint=north":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                           "x":  270
+                                                                                       },
+                     "facing=up,position=middle,thickness=medium,up_hint=north":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                                      "x":  270
+                                                                                  },
+                     "facing=up,position=front_middle,thickness=medium,up_hint=north":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                            "x":  270
+                                                                                        },
+                     "facing=up,position=front,thickness=medium,up_hint=north":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                                     "x":  270
+                                                                                 },
+                     "facing=up,position=back,thickness=medium,up_hint=east":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                                   "x":  270,
+                                                                                   "y":  90
+                                                                               },
+                     "facing=up,position=back_middle,thickness=medium,up_hint=east":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                          "x":  270,
+                                                                                          "y":  90
+                                                                                      },
+                     "facing=up,position=middle,thickness=medium,up_hint=east":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                                     "x":  270,
+                                                                                     "y":  90
+                                                                                 },
+                     "facing=up,position=front_middle,thickness=medium,up_hint=east":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                           "x":  270,
+                                                                                           "y":  90
+                                                                                       },
+                     "facing=up,position=front,thickness=medium,up_hint=east":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                                    "x":  270,
+                                                                                    "y":  90
+                                                                                },
+                     "facing=up,position=back,thickness=medium,up_hint=south":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                                    "x":  270,
+                                                                                    "y":  180
+                                                                                },
+                     "facing=up,position=back_middle,thickness=medium,up_hint=south":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                           "x":  270,
+                                                                                           "y":  180
+                                                                                       },
+                     "facing=up,position=middle,thickness=medium,up_hint=south":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                                      "x":  270,
+                                                                                      "y":  180
+                                                                                  },
+                     "facing=up,position=front_middle,thickness=medium,up_hint=south":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                            "x":  270,
+                                                                                            "y":  180
+                                                                                        },
+                     "facing=up,position=front,thickness=medium,up_hint=south":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                                     "x":  270,
+                                                                                     "y":  180
+                                                                                 },
+                     "facing=up,position=back,thickness=medium,up_hint=west":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                                   "x":  270,
+                                                                                   "y":  270
+                                                                               },
+                     "facing=up,position=back_middle,thickness=medium,up_hint=west":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                          "x":  270,
+                                                                                          "y":  270
+                                                                                      },
+                     "facing=up,position=middle,thickness=medium,up_hint=west":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                                     "x":  270,
+                                                                                     "y":  270
+                                                                                 },
+                     "facing=up,position=front_middle,thickness=medium,up_hint=west":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                           "x":  270,
+                                                                                           "y":  270
+                                                                                       },
+                     "facing=up,position=front,thickness=medium,up_hint=west":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                                    "x":  270,
+                                                                                    "y":  270
+                                                                                },
+                     "facing=north,position=back,thickness=medium":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign_medium/back"
+                                                                     },
+                     "facing=north,position=back_middle,thickness=medium":  {
+                                                                                "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle"
+                                                                            },
+                     "facing=north,position=middle,thickness=medium":  {
+                                                                           "model":  "copycatsign:block/pictures/copycat_sign_medium/middle"
+                                                                       },
+                     "facing=north,position=front_middle,thickness=medium":  {
+                                                                                 "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle"
+                                                                             },
+                     "facing=north,position=front,thickness=medium":  {
+                                                                          "model":  "copycatsign:block/pictures/copycat_sign_medium/front"
+                                                                      },
+                     "facing=south,position=back,thickness=medium":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                         "y":  180
+                                                                     },
+                     "facing=south,position=back_middle,thickness=medium":  {
+                                                                                "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                                "y":  180
+                                                                            },
+                     "facing=south,position=middle,thickness=medium":  {
+                                                                           "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                           "y":  180
+                                                                       },
+                     "facing=south,position=front_middle,thickness=medium":  {
+                                                                                 "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                 "y":  180
+                                                                             },
+                     "facing=south,position=front,thickness=medium":  {
+                                                                          "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                          "y":  180
+                                                                      },
+                     "facing=west,position=back,thickness=medium":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                        "y":  270
+                                                                    },
+                     "facing=west,position=back_middle,thickness=medium":  {
+                                                                               "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                               "y":  270
+                                                                           },
+                     "facing=west,position=middle,thickness=medium":  {
+                                                                          "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                          "y":  270
+                                                                      },
+                     "facing=west,position=front_middle,thickness=medium":  {
+                                                                                "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                "y":  270
+                                                                            },
+                     "facing=west,position=front,thickness=medium":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                         "y":  270
+                                                                     },
+                     "facing=east,position=back,thickness=medium":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign_medium/back",
+                                                                        "y":  90
+                                                                    },
+                     "facing=east,position=back_middle,thickness=medium":  {
+                                                                               "model":  "copycatsign:block/pictures/copycat_sign_medium/back_middle",
+                                                                               "y":  90
+                                                                           },
+                     "facing=east,position=middle,thickness=medium":  {
+                                                                          "model":  "copycatsign:block/pictures/copycat_sign_medium/middle",
+                                                                          "y":  90
+                                                                      },
+                     "facing=east,position=front_middle,thickness=medium":  {
+                                                                                "model":  "copycatsign:block/pictures/copycat_sign_medium/front_middle",
+                                                                                "y":  90
+                                                                            },
+                     "facing=east,position=front,thickness=medium":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign_medium/front",
+                                                                         "y":  90
+                                                                     },
+                     "facing=down,position=back,thickness=thick,up_hint=north":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                                     "x":  90
+                                                                                 },
+                     "facing=down,position=back_middle,thickness=thick,up_hint=north":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                                            "x":  90
+                                                                                        },
+                     "facing=down,position=middle,thickness=thick,up_hint=north":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                                       "x":  90
+                                                                                   },
+                     "facing=down,position=front_middle,thickness=thick,up_hint=north":  {
+                                                                                             "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                             "x":  90
+                                                                                         },
+                     "facing=down,position=front,thickness=thick,up_hint=north":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                                      "x":  90
+                                                                                  },
+                     "facing=down,position=back,thickness=thick,up_hint=east":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                                    "x":  90,
+                                                                                    "y":  90
+                                                                                },
+                     "facing=down,position=back_middle,thickness=thick,up_hint=east":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                                           "x":  90,
+                                                                                           "y":  90
+                                                                                       },
+                     "facing=down,position=middle,thickness=thick,up_hint=east":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                                      "x":  90,
+                                                                                      "y":  90
+                                                                                  },
+                     "facing=down,position=front_middle,thickness=thick,up_hint=east":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                            "x":  90,
+                                                                                            "y":  90
+                                                                                        },
+                     "facing=down,position=front,thickness=thick,up_hint=east":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                                     "x":  90,
+                                                                                     "y":  90
+                                                                                 },
+                     "facing=down,position=back,thickness=thick,up_hint=south":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                                     "x":  90,
+                                                                                     "y":  180
+                                                                                 },
+                     "facing=down,position=back_middle,thickness=thick,up_hint=south":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                                            "x":  90,
+                                                                                            "y":  180
+                                                                                        },
+                     "facing=down,position=middle,thickness=thick,up_hint=south":  {
+                                                                                       "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                                       "x":  90,
+                                                                                       "y":  180
+                                                                                   },
+                     "facing=down,position=front_middle,thickness=thick,up_hint=south":  {
+                                                                                             "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                             "x":  90,
+                                                                                             "y":  180
+                                                                                         },
+                     "facing=down,position=front,thickness=thick,up_hint=south":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                                      "x":  90,
+                                                                                      "y":  180
+                                                                                  },
+                     "facing=down,position=back,thickness=thick,up_hint=west":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                                    "x":  90,
+                                                                                    "y":  270
+                                                                                },
+                     "facing=down,position=back_middle,thickness=thick,up_hint=west":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                                           "x":  90,
+                                                                                           "y":  270
+                                                                                       },
+                     "facing=down,position=middle,thickness=thick,up_hint=west":  {
+                                                                                      "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                                      "x":  90,
+                                                                                      "y":  270
+                                                                                  },
+                     "facing=down,position=front_middle,thickness=thick,up_hint=west":  {
+                                                                                            "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                            "x":  90,
+                                                                                            "y":  270
+                                                                                        },
+                     "facing=down,position=front,thickness=thick,up_hint=west":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                                     "x":  90,
+                                                                                     "y":  270
+                                                                                 },
+                     "facing=up,position=back,thickness=thick,up_hint=north":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                                   "x":  270
+                                                                               },
+                     "facing=up,position=back_middle,thickness=thick,up_hint=north":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                                          "x":  270
+                                                                                      },
+                     "facing=up,position=middle,thickness=thick,up_hint=north":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                                     "x":  270
+                                                                                 },
+                     "facing=up,position=front_middle,thickness=thick,up_hint=north":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                           "x":  270
+                                                                                       },
+                     "facing=up,position=front,thickness=thick,up_hint=north":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                                    "x":  270
+                                                                                },
+                     "facing=up,position=back,thickness=thick,up_hint=east":  {
+                                                                                  "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                                  "x":  270,
+                                                                                  "y":  90
+                                                                              },
+                     "facing=up,position=back_middle,thickness=thick,up_hint=east":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                                         "x":  270,
+                                                                                         "y":  90
+                                                                                     },
+                     "facing=up,position=middle,thickness=thick,up_hint=east":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                                    "x":  270,
+                                                                                    "y":  90
+                                                                                },
+                     "facing=up,position=front_middle,thickness=thick,up_hint=east":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                          "x":  270,
+                                                                                          "y":  90
+                                                                                      },
+                     "facing=up,position=front,thickness=thick,up_hint=east":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                                   "x":  270,
+                                                                                   "y":  90
+                                                                               },
+                     "facing=up,position=back,thickness=thick,up_hint=south":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                                   "x":  270,
+                                                                                   "y":  180
+                                                                               },
+                     "facing=up,position=back_middle,thickness=thick,up_hint=south":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                                          "x":  270,
+                                                                                          "y":  180
+                                                                                      },
+                     "facing=up,position=middle,thickness=thick,up_hint=south":  {
+                                                                                     "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                                     "x":  270,
+                                                                                     "y":  180
+                                                                                 },
+                     "facing=up,position=front_middle,thickness=thick,up_hint=south":  {
+                                                                                           "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                           "x":  270,
+                                                                                           "y":  180
+                                                                                       },
+                     "facing=up,position=front,thickness=thick,up_hint=south":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                                    "x":  270,
+                                                                                    "y":  180
+                                                                                },
+                     "facing=up,position=back,thickness=thick,up_hint=west":  {
+                                                                                  "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                                  "x":  270,
+                                                                                  "y":  270
+                                                                              },
+                     "facing=up,position=back_middle,thickness=thick,up_hint=west":  {
+                                                                                         "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                                         "x":  270,
+                                                                                         "y":  270
+                                                                                     },
+                     "facing=up,position=middle,thickness=thick,up_hint=west":  {
+                                                                                    "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                                    "x":  270,
+                                                                                    "y":  270
+                                                                                },
+                     "facing=up,position=front_middle,thickness=thick,up_hint=west":  {
+                                                                                          "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                          "x":  270,
+                                                                                          "y":  270
+                                                                                      },
+                     "facing=up,position=front,thickness=thick,up_hint=west":  {
+                                                                                   "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                                   "x":  270,
+                                                                                   "y":  270
+                                                                               },
+                     "facing=north,position=back,thickness=thick":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign_thick/back"
+                                                                    },
+                     "facing=north,position=back_middle,thickness=thick":  {
+                                                                               "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle"
+                                                                           },
+                     "facing=north,position=middle,thickness=thick":  {
+                                                                          "model":  "copycatsign:block/pictures/copycat_sign_thick/middle"
+                                                                      },
+                     "facing=north,position=front_middle,thickness=thick":  {
+                                                                                "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle"
+                                                                            },
+                     "facing=north,position=front,thickness=thick":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign_thick/front"
+                                                                     },
+                     "facing=south,position=back,thickness=thick":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                        "y":  180
+                                                                    },
+                     "facing=south,position=back_middle,thickness=thick":  {
+                                                                               "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                               "y":  180
+                                                                           },
+                     "facing=south,position=middle,thickness=thick":  {
+                                                                          "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                          "y":  180
+                                                                      },
+                     "facing=south,position=front_middle,thickness=thick":  {
+                                                                                "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                                "y":  180
+                                                                            },
+                     "facing=south,position=front,thickness=thick":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                         "y":  180
+                                                                     },
+                     "facing=west,position=back,thickness=thick":  {
+                                                                       "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                       "y":  270
+                                                                   },
+                     "facing=west,position=back_middle,thickness=thick":  {
+                                                                              "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                              "y":  270
+                                                                          },
+                     "facing=west,position=middle,thickness=thick":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                         "y":  270
+                                                                     },
+                     "facing=west,position=front_middle,thickness=thick":  {
+                                                                               "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                               "y":  270
+                                                                           },
+                     "facing=west,position=front,thickness=thick":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                        "y":  270
+                                                                    },
+                     "facing=east,position=back,thickness=thick":  {
+                                                                       "model":  "copycatsign:block/pictures/copycat_sign_thick/back",
+                                                                       "y":  90
+                                                                   },
+                     "facing=east,position=back_middle,thickness=thick":  {
+                                                                              "model":  "copycatsign:block/pictures/copycat_sign_thick/back_middle",
+                                                                              "y":  90
+                                                                          },
+                     "facing=east,position=middle,thickness=thick":  {
+                                                                         "model":  "copycatsign:block/pictures/copycat_sign_thick/middle",
+                                                                         "y":  90
+                                                                     },
+                     "facing=east,position=front_middle,thickness=thick":  {
+                                                                               "model":  "copycatsign:block/pictures/copycat_sign_thick/front_middle",
+                                                                               "y":  90
+                                                                           },
+                     "facing=east,position=front,thickness=thick":  {
+                                                                        "model":  "copycatsign:block/pictures/copycat_sign_thick/front",
+                                                                        "y":  90
+                                                                    }
+                 }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "copycatsign:item/picture_hogwarts_express_schild"
+  }
+}

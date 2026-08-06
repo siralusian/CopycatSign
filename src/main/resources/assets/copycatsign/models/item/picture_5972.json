@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "copycatsign:block/pictures/5972/front"
+  }
+}

@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[dependencies.copycatsign]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.233,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.copycatsign]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+# Create wird nur fuer die Kontraption-Kompatibilitaet gebraucht (das ganze Ziel dieses Mods) - aber
+# rein technisch registriert Create bei uns keine eigenen Hooks (siehe ROADMAP.md: Create ruft ganz
+# normale BlockEntityRenderer automatisch ueber BlockEntityRenderHelper.renderBlockEntities auf),
+# daher optional statt required.
+[[dependencies.copycatsign]]
+    modId="create"
+    type="optional"
+    versionRange="[6.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+    modId="copycatsign"
+    version="0.1.0"
+    displayName="Copycat Sign"
+    description="Frei platzierbare Bild-Schilder mit waehlbarem Rahmenmaterial - Create-kompatibel."
