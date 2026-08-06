@@ -16,10 +16,9 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.ModelEvent;
-import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
-import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 
 import java.util.List;
 import java.util.Map;
@@ -27,13 +26,18 @@ import java.util.Map;
 /**
  * Client-only hookups: wraps every baked model variant of our picture blocks in a PictureBakedModel
  * so a player-chosen back/edge material (see PictureBlockEntity/PictureMaterialProperty) can
- * re-texture the sign at render time, and registers the client-bound network payloads. Kept as its
- * own Dist.CLIENT-gated class (rather than wiring these listeners straight from CopycatSign's
- * constructor) because everything here (BakedModel, ImageUploadResultPayload's eventual GUI
- * consumer, ...) is client-only - FML skips loading this class entirely on a dedicated server thanks
- * to @EventBusSubscriber's Dist filter. CopycatSignNetwork registers the server-bound payloads
- * separately in common code for exactly that reason - it must never be called from here or vice
- * versa, or a dedicated server would end up loading client-only classes.
+ * re-texture the sign at render time, and drains ClientPictureBridge every client tick to do the
+ * actual Screen-opening/texture work. Kept as its own Dist.CLIENT-gated class (rather than wiring
+ * these listeners straight from CopycatSign's constructor) because everything here (BakedModel,
+ * PictureEditorScreen, ClientImageManager, ...) is client-only - FML skips loading this class
+ * entirely on a dedicated server thanks to @EventBusSubscriber's Dist filter.
+ * <p>
+ * Nutzer-Fund (Live-Test auf echtem Dedicated Server): die 3 Client-Payloads wurden vorher HIER per
+ * eigenem event.registrar("1") registriert - lief in Singleplayer unbemerkt (physische Seite ist
+ * dort immer CLIENT), verpuffte auf einem echten Dedicated Server aber wirkungslos, weil diese Klasse
+ * dort nie geladen wird und der Server den Kanal für diese 3 Typen deshalb überhaupt nicht kennt. Die
+ * Registrierung wandert deshalb nach CopycatSignNetwork (common) - siehe ClientPictureBridge
+ * Klassenkommentar für die Details des Fixes.
  */
 @EventBusSubscriber(modid = CopycatSign.MOD_ID, value = Dist.CLIENT)
 public final class CopycatSignClient {
@@ -55,21 +59,26 @@ public final class CopycatSignClient {
     }
 
     @SubscribeEvent
-    public static void onRegisterPayloadHandlers(RegisterPayloadHandlersEvent event) {
-        PayloadRegistrar registrar = event.registrar("1");
-        registrar.playToClient(ImageUploadResultPayload.TYPE, ImageUploadResultPayload.STREAM_CODEC,
-            (payload, ctx) -> ctx.enqueueWork(() -> {
-                if (Minecraft.getInstance().screen instanceof PictureEditorScreen screen) {
-                    screen.onUploadResult(payload);
-                } else if (!payload.success()) {
-                    CopycatSign.LOGGER.warn("image upload rejected: {}", payload.hashOrErrorKey());
-                }
-            }));
-        registrar.playToClient(ImageDataResponsePayload.TYPE, ImageDataResponsePayload.STREAM_CODEC,
-            (payload, ctx) -> ctx.enqueueWork(() -> ClientImageManager.handleResponse(payload)));
-        registrar.playToClient(OpenPictureEditorPayload.TYPE, OpenPictureEditorPayload.STREAM_CODEC,
-            (payload, ctx) -> ctx.enqueueWork(() -> Minecraft.getInstance().setScreen(
-                new PictureEditorScreen(payload.pos(), payload.imageHash(), payload.panX(), payload.panY(), payload.zoom(), payload.thickness()))));
+    public static void onClientTick(ClientTickEvent.Post event) {
+        OpenPictureEditorPayload open = ClientPictureBridge.takePendingOpen();
+        if (open != null) {
+            Minecraft.getInstance().setScreen(new PictureEditorScreen(
+                open.pos(), open.imageHash(), open.panX(), open.panY(), open.zoom(), open.thickness()));
+        }
+
+        ImageUploadResultPayload uploadResult = ClientPictureBridge.takePendingUploadResult();
+        if (uploadResult != null) {
+            if (Minecraft.getInstance().screen instanceof PictureEditorScreen screen) {
+                screen.onUploadResult(uploadResult);
+            } else if (!uploadResult.success()) {
+                CopycatSign.LOGGER.warn("image upload rejected: {}", uploadResult.hashOrErrorKey());
+            }
+        }
+
+        ImageDataResponsePayload imageData;
+        while ((imageData = ClientPictureBridge.pollImageData()) != null) {
+            ClientImageManager.handleResponse(imageData);
+        }
     }
 
     private static void wrapModelsFor(AbstractPictureBlock block, Map<ModelResourceLocation, BakedModel> models) {
